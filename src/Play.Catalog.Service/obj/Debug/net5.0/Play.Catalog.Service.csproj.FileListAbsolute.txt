@@ -25,8 +25,6 @@ C:\Users\Darius\Documents\YoutubeTutorials\.NET\Microservices\src\Play.Catalog.S
 C:\Users\Darius\Documents\YoutubeTutorials\.NET\Microservices\src\Play.Catalog.Service\obj\Debug\net5.0\ref\Play.Catalog.Service.dll
 C:\Users\Darius\Documents\YoutubeTutorials\.NET\Microservices\src\Play.Catalog.Service\obj\Debug\net5.0\Play.Catalog.Service.pdb
 C:\Users\Darius\Documents\YoutubeTutorials\.NET\Microservices\src\Play.Catalog.Service\obj\Debug\net5.0\Play.Catalog.Service.genruntimeconfig.cache
-C:\Users\Darius\Documents\YoutubeTutorials\.NET\Microservices\src\Play.Catalog.Service\bin\Debug\net5.0\ref\Play.Catalog.Service.dll
-C:\Users\Darius\Documents\YoutubeTutorials\.NET\Microservices\src\Play.Catalog.Service\obj\Debug\net5.0\staticwebassets\Play.Catalog.Service.StaticWebAssets.xml
 C:\Users\Darius\Documents\YoutubeTutorials\.NET\Microservices\src\Play.Catalog.Service\bin\Debug\net5.0\AWSSDK.Core.dll
 C:\Users\Darius\Documents\YoutubeTutorials\.NET\Microservices\src\Play.Catalog.Service\bin\Debug\net5.0\AWSSDK.SecurityToken.dll
 C:\Users\Darius\Documents\YoutubeTutorials\.NET\Microservices\src\Play.Catalog.Service\bin\Debug\net5.0\DnsClient.dll
@@ -40,3 +38,5 @@ C:\Users\Darius\Documents\YoutubeTutorials\.NET\Microservices\src\Play.Catalog.S
 C:\Users\Darius\Documents\YoutubeTutorials\.NET\Microservices\src\Play.Catalog.Service\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
 C:\Users\Darius\Documents\YoutubeTutorials\.NET\Microservices\src\Play.Catalog.Service\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
 C:\Users\Darius\Documents\YoutubeTutorials\.NET\Microservices\src\Play.Catalog.Service\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+C:\Users\Darius\Documents\YoutubeTutorials\.NET\Microservices\src\Play.Catalog.Service\bin\Debug\net5.0\ref\Play.Catalog.Service.dll
+C:\Users\Darius\Documents\YoutubeTutorials\.NET\Microservices\src\Play.Catalog.Service\obj\Debug\net5.0\staticwebassets\Play.Catalog.Service.StaticWebAssets.xml

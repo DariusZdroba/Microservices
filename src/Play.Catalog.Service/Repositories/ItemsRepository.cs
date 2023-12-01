@@ -6,27 +6,29 @@ using Play.Catalog.Service.Entities;
 
 namespace Play.Catalog.Service.Repositories
 {
-    public class ItemsRepository
+    public class ItemsRepository : IItemsRepository
     {
         private const string collectionName = "items";
         private readonly IMongoCollection<Item> dbCollection;
         private readonly FilterDefinitionBuilder<Item> filterBuilder = Builders<Item>.Filter;
 
-        public ItemsRepository()
+
+        public ItemsRepository(IMongoDatabase database)
         {
-            var mongoClient = new MongoClient("mongodb://localhost:27017");
-            var database = mongoClient.GetDatabase("Catalog");
             dbCollection = database.GetCollection<Item>(collectionName);
         }
+
         public async Task<IReadOnlyCollection<Item>> GetAllAsync()
         {
             return await dbCollection.Find(filterBuilder.Empty).ToListAsync();
         }
+
         public async Task<Item> GetAsync(Guid id)
         {
             FilterDefinition<Item> filter = filterBuilder.Eq(entity => entity.id, id);
             return await dbCollection.Find(filter).FirstOrDefaultAsync();
         }
+
         public async Task CreateAsync(Item entity)
         {
             if (entity == null)
@@ -35,6 +37,7 @@ namespace Play.Catalog.Service.Repositories
             }
             await dbCollection.InsertOneAsync(entity);
         }
+
         public async Task UpdateAsync(Item entity)
         {
             if (entity == null)
@@ -44,6 +47,7 @@ namespace Play.Catalog.Service.Repositories
             FilterDefinition<Item> filter = filterBuilder.Eq(existingEntity => existingEntity.id, entity.id);
             await dbCollection.ReplaceOneAsync(filter, entity);
         }
+
         public async Task RemoveAsync(Guid id)
         {
             FilterDefinition<Item> filter = filterBuilder.Eq(e => e.id, id);
