@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {}
+    "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\play.catalog.service\\Play.Catalog.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {
+    "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\play.catalog.service\\Play.Catalog.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "projectUniqueName": "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\play.catalog.service\\Play.Catalog.Service.csproj",
         "projectName": "Play.Catalog.Service",
-        "projectPath": "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "projectPath": "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\play.catalog.service\\Play.Catalog.Service.csproj",
         "packagesPath": "C:\\Users\\Darius\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\Play.Catalog.Service\\obj\\",
+        "outputPath": "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\play.catalog.service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Darius\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,8 +56,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -69,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

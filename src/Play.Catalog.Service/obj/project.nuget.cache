@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F64zeyqaUo0NquXoDDWavmKCD9nWfsQ9UufWdT52boZP92q+A6siLPoZngGIIHELpAxsSMmit70JQPQVIylCpA==",
+  "dgSpecHash": "hnaBOyZfhf4PJzEDGDtgsPLFI74vF+JQF/Q3fHfBqwekHK+4apbagSd0d6uaMYfwOSXdBvPwuAcHk/lH6NjHww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+  "projectFilePath": "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\play.catalog.service\\Play.Catalog.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Darius\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Darius\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
