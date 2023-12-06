@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\play.catalog.service\\Play.Catalog.Service.csproj": {}
+    "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\play.catalog.service\\Play.Catalog.Service.csproj": {
+    "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\play.catalog.service\\Play.Catalog.Service.csproj",
-        "projectName": "Play.Catalog.Service",
-        "projectPath": "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\play.catalog.service\\Play.Catalog.Service.csproj",
+        "projectUniqueName": "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
+        "projectName": "Play.Catalog.Contracts",
+        "projectPath": "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
         "packagesPath": "C:\\Users\\Darius\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\play.catalog.service\\obj\\",
+        "outputPath": "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\Play.Catalog.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Darius\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,7 +40,74 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "projectName": "Play.Catalog.Service",
+        "projectPath": "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "packagesPath": "C:\\Users\\Darius\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\Play.Catalog.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Darius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Darius\\Documents\\YoutubeTutorials\\.NET\\Microservices\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.1.2, )"
+            },
             "Play.Common": {
               "target": "Package",
               "version": "[1.0.0, )"
